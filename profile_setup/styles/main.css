@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  /*height: */
 }
 
 .outer {
@@ -23,6 +24,12 @@ body {
 
 section {
   max-width: 760px;
+  width: 100%;
   background-color: #ffffff;
   padding: 2rem 0;
+  justify-content: center;
+}
+
+legend {
+  text-align: center;
 }

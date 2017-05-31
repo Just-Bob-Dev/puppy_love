@@ -8,7 +8,43 @@
 <body>
   <div class="outer">
     <section>
-      lorem ipsum dolor set
+      <form>
+        <legend class="sign_up">Sign Up</legend>
+        <div class="radio_buttons">
+          <label>
+            <input type="radio" name="chooseone" value="admin">admin
+          </label>
+          <label>
+            <input type="radio" name="chooseone" value="personal">personal
+          </label>
+          <label>
+            <input type="radio" name="chooseone" value="guest">guest
+          </label>
+        </div>
+        <section class="info_block">
+          <div class="personal_info">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div class="personal_info">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="personal_info">
+            <label for="password">password</label>
+            <input type="password" id="password" name="password">
+          </div>
+          <div class="personal_info">
+            <label for="password">confirm password</label>
+            <input type="password" id="password" name="password">
+          </div>
+        </section>
+        <div class="profile_submit">
+          <label for="file">profile picture</label>
+          <input type="file" id="file" name="file">
+          <button type="submit">sign up</button>
+        </div>
+      </form>
     </section>
   </div>
 </body>
