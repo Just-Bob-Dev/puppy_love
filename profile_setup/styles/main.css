@@ -24,12 +24,13 @@ body {
 
 section {
   max-width: 760px;
-  width: 100%;
   background-color: #ffffff;
   padding: 2rem 0;
-  justify-content: center;
+  display: flex;
+  align-content: center;
+
 }
 
-legend {
+.sign_up {
   text-align: center;
 }
