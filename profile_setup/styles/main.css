@@ -24,13 +24,84 @@ body {
 
 section {
   max-width: 760px;
+  width: 100%;
   background-color: #ffffff;
   padding: 2rem 0;
   display: flex;
+  flex-direction: column;
   align-content: center;
+  font-size: 1em;
 
 }
 
 .sign_up {
   text-align: center;
+  margin-bottom: 3%;
 }
+
+.radio_buttons {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.radio_buttons label {
+  text-align: center;
+}
+
+.info_block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3%;
+}
+
+.info_block input {
+  margin-top: 20px;
+  height: 30px;
+}
+
+.info_block label {
+  margin-bottom: 40px;
+}
+
+.personal_info {
+  flex-basis: 50%;
+  padding: 1.5% 3%;
+}
+
+.personal_info input {
+  width: 100%;
+}
+
+.profile_submit {
+  display: flex;
+  grid-template-columns: 50% 50%;
+  padding: 0 3%;
+}
+.pic_upload {
+  flex-basis: 50%;
+}
+.pic_upload{
+  padding: 0 3%;
+}
+.pic_upload input{
+  padding-top: 4%;
+  width: 100%;
+  font-size: 1em;
+}
+.pic_upload label {
+  padding-bottom: 2%;
+}
+button {
+  height: 40px;
+  width: 45%;
+  margin: 0 3% 0 4%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-size: 1em;
+
+}
+/*label, div, input {
+  border: 1px solid black;
+}*/
